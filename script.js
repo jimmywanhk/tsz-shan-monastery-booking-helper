@@ -22,11 +22,11 @@ if (Notification.permission !== "granted") {
   Notification.requestPermission();
 }
 
-var available = false;
-var list = document.getElementsByClassName(" avaliable");
+let available = false;
+const list = document.getElementsByClassName(" avaliable");
 if (list.length > 1) {
-  for (var i = 1; i < list.length; i++) {
-    for (var j = 0; j < dates_you_want.length; j++) {
+  for (let i = 1; i < list.length; i++) {
+    for (let j = 0; j < dates_you_want.length; j++) {
       if (Number(list[i].getAttribute("data-year")) === dates_you_want[j].year &&
           Number(list[i].getAttribute("data-month")) + 1 === dates_you_want[j].month &&
           Number(list[i].innerText) === dates_you_want[j].day
