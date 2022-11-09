@@ -4,18 +4,6 @@ const dates_you_want = [
   { year: 2022, month: 7, day: 17 },
   { year: 2022, month: 7, day: 18 },
   { year: 2022, month: 7, day: 19 },
-  { year: 2022, month: 7, day: 20 },
-  { year: 2022, month: 7, day: 21 },
-  { year: 2022, month: 7, day: 22 },
-  { year: 2022, month: 7, day: 23 },
-  { year: 2022, month: 7, day: 24 },
-  { year: 2022, month: 7, day: 25 },
-  { year: 2022, month: 7, day: 26 },
-  { year: 2022, month: 7, day: 27 },
-  { year: 2022, month: 7, day: 28 },
-  { year: 2022, month: 7, day: 29 },
-  { year: 2022, month: 7, day: 30 },
-  { year: 2022, month: 7, day: 31 },
 ];
 
 if (Notification.permission !== "granted") {
